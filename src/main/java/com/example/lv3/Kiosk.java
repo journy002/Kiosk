@@ -1,4 +1,4 @@
-package com.example.lv2;
+package com.example.lv3;
 
 import java.util.Scanner;
 
