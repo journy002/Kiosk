@@ -21,15 +21,4 @@ public class Menu {
         }
         System.out.println("0. 종료 | 종료");
     }
-
-    public MenuItem getMenuItem(int index) {
-        if (index >= 0 && index < items.size()) {
-            return items.get(index);
-        }
-        return null;
-    }
-
-    public int getSize() {
-        return items.size();
-    }
 }
